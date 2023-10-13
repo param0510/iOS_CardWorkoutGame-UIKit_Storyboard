@@ -14,14 +14,14 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="CardGameUIVC" customModule="CardWorkoutGame" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="W2q-fK-Avi">
-                                <rect key="frame" x="50" y="75" width="293" height="512"/>
+                                <rect key="frame" x="50" y="134" width="293" height="404"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tT0-9h-wbJ">
-                                <rect key="frame" x="220" y="686" width="123" height="47"/>
+                                <rect key="frame" x="220" y="637" width="123" height="47"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="47" id="uwh-YI-Kp0"/>
                                 </constraints>
@@ -36,7 +36,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lMe-LT-i3l">
-                                <rect key="frame" x="50" y="619" width="293" height="47"/>
+                                <rect key="frame" x="50" y="570" width="293" height="47"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="47" id="HIf-8b-0P4"/>
                                 </constraints>
@@ -51,7 +51,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jwn-Ye-4FP">
-                                <rect key="frame" x="50" y="686" width="123" height="47"/>
+                                <rect key="frame" x="50" y="637" width="123" height="47"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="47" id="I7X-k4-Pgc"/>
                                 </constraints>
@@ -95,10 +95,10 @@
             </objects>
             <point key="canvasLocation" x="136.64122137404578" y="3.5211267605633805"/>
         </scene>
-        <!--View Controller-->
+        <!--RulesUIVC-->
         <scene sceneID="QXK-lR-4ih">
             <objects>
-                <viewController id="dLE-1N-Q6L" sceneMemberID="viewController">
+                <viewController id="dLE-1N-Q6L" customClass="RulesUIVC" customModule="CardWorkoutGame" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="21F-fS-acp">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -110,7 +110,7 @@
                                     <fontDescription key="titleFontDescription" type="system" pointSize="22"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="yMk-Kw-Am6"/>
+                                    <action selector="backBtnPressed:" destination="dLE-1N-Q6L" eventType="touchUpInside" id="0JY-eB-qtw"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rules" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ux6-If-L4j">

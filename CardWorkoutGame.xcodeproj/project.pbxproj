@@ -14,6 +14,7 @@
 		8B060D912A15513F0055C1C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B060D902A15513F0055C1C3 /* Assets.xcassets */; };
 		8B060D942A15513F0055C1C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B060D922A15513F0055C1C3 /* LaunchScreen.storyboard */; };
 		8BD5E8AA2A15BA10008F10AB /* CardsUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD5E8A92A15BA10008F10AB /* CardsUtility.swift */; };
+		8BE0D2502AD9F02C00AD3C85 /* RulesUIVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE0D24F2AD9F02C00AD3C85 /* RulesUIVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		8B060D932A15513F0055C1C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B060D952A15513F0055C1C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8BD5E8A92A15BA10008F10AB /* CardsUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsUtility.swift; sourceTree = "<group>"; };
+		8BE0D24F2AD9F02C00AD3C85 /* RulesUIVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesUIVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				8B060D872A15513E0055C1C3 /* AppDelegate.swift */,
 				8B060D892A15513E0055C1C3 /* SceneDelegate.swift */,
 				8BD5E8A92A15BA10008F10AB /* CardsUtility.swift */,
+				8BE0D24F2AD9F02C00AD3C85 /* RulesUIVC.swift */,
 				8B060D8B2A15513E0055C1C3 /* CardGameUIVC.swift */,
 				8B060D8D2A15513E0055C1C3 /* Main.storyboard */,
 				8B060D902A15513F0055C1C3 /* Assets.xcassets */,
@@ -144,6 +147,7 @@
 				8B060D8C2A15513E0055C1C3 /* CardGameUIVC.swift in Sources */,
 				8B060D882A15513E0055C1C3 /* AppDelegate.swift in Sources */,
 				8BD5E8AA2A15BA10008F10AB /* CardsUtility.swift in Sources */,
+				8BE0D2502AD9F02C00AD3C85 /* RulesUIVC.swift in Sources */,
 				8B060D8A2A15513E0055C1C3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
